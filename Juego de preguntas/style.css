@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+h2 {
+    margin-bottom: 80px;
+}
+
+.question a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px !important;
+    transition: 0.4s;
+}
+
+.question a:hover {
+    background-color: black;
+    transition: 0.4s;
+    color: white;
+}
+
+#dos, #tres, #cuatro, #cinco {
+    display: none;
+}
+
+#correct, #incorrect, #correct2, #incorrect2, #correct3, #incorrect3, #correct4, #incorrect4, #correct5, #incorrect5 {
+    display: none;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#correct, #correct2, #correct3, #correct4, #correct5 {
+    color: green;
+}
+#incorrect, #incorrect2, #incorrect3, #incorrect4, #incorrect5 {
+    color: red;
+}
