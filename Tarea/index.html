@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <h1>Vienvenido a la tienda</h1>
+        <h2>Elija que quiere comprar:</h2>
+        <div class="contenedor">
+            <div class="producto1">
+                <img src="detergente.png">
+                <div class="detergente">Detergente Griego</div>
+                <div class="precio del detergente" data-price="380000">$380.000</div>
+                <button onclick="comprar(380000)">Comprar</button>
+            </div>
+            <div class="producto2">
+                <img src="jabom.png">
+                <div class="jabom">Jabom Egipsio</div>
+                <div class="precio del jabom" data-price="260000">$260.000</div>
+                <button onclick="comprar2(260000)">Comprar</button>
+            </div>
+            <div class="producto3">
+                <img src="shampoo.png">
+                <div class="shampoo">shampoo de almendros</div>
+                <div class="precio del shampoo" data-price="100000">$100.000</div>
+                <button onclick="comprar3(100000)">Comprar</button>
+            </div>
+            <div class="producto4">
+                <img src="colgate.png">
+                <div class="colgate">Colgate haroma flores de cerezo</div>
+                <div class="precio del colgate" data-price="520000">$520.000</div>
+                <button onclick="comprar4(520000)">Comprar</button>
+            </div>
+        </div>
+        <div id="total">
+
+        </div>
+       
+        <script src="script.js"></script>
+    </body>
+</html>
